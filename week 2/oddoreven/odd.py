@@ -1,6 +1,4 @@
-#if a == 4:
-
-  #print("the variable has the value 4")
+#
 
 #else:
 
@@ -8,15 +6,12 @@
 
 #how does an even / odd number react differently when divided by 2?
 
-#>>> 5 / 3 got error
-a = 5
-b = 3
-2
-print ('Division :', a % b)
+number = int(input("give me a number:"))
+
+if number % 2 == 0:
+
+  print  ('it is even :' ) 
+else:
+  print ("its odd")
 
 
-#>>> 2* 2
-
-#a = 2
-#b =2
-#print ('Mutiplication :', a * b)
